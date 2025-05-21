@@ -1,5 +1,7 @@
 # Replica-Portolio
 Grorop assignemnt
+TEAM MEMBERS
+Thapelo Makgakga
 
 
 John Watson - Portfolio Website
