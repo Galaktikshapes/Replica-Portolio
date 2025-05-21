@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Watson - Web Designer & Photographer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span>John Watson</span></h1>
+            <h2>Web Designer & Developer</h2>
+            <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away!</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Hire Me</a>
+                <a href="#portfolio" class="btn secondary">My Portfolio</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="John Watson">
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section class="biography" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h3>MY BIOGRAPHY</h3>
+                <h2>A Lead UI Designer & Web Developer<br>Based In UK</h2>
+            </div>
+            <div class="bio-content">
+                <div class="bio-text">
+                    <p>I love Graphic design and Photography and have been working on my portfolio since 2015. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+                    <div class="bio-details">
+                        <p><strong>Name:</strong> John Watson</p>
+                        <p><strong>Email:</strong> example@mail.com</p>
+                    </div>
+                </div>
+                <div class="bio-image">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="John Watson working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What I Do For You</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ritium dolor emque laudan.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App development</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ritium dolor emque laudan.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit accusa ritium dolor emque laudan.</p>
+                </div>
+            </div>
+            <div class="more-services">
+                <a href="#services" class="btn-link">More Services <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h3>MY SKILLS</h3>
+                <h2>My Featured Skills</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <p>I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I always ready to impress the audience with my Creativity.</p>
+                </div>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-name">UI/UX Design</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Ideas & Technology</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Branding Design</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Responsive Web Design</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Research & Analysis</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive design</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Design Trends</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Customer support</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-image"></i>
+                    <h3>PSD Design</h3>
+                    <p>Lorem ipsum viverra libero set.<br>Pellen ut justo, in ligula at.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="count" data-target="135">0</h3>
+                    <p>Finished Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="225">0</h3>
+                    <p>Working Hours</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="115">0</h3>
+                    <p>Online Support</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="count" data-target="272">0</h3>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Success Work</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Guzrgb Mfg</h3>
+                        <p>00%</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>MASSAGE & SPA</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1736&q=80" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>BITCHERY</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f8e5b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>NATURAL</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-header">
+                <h2>UI Portfolio</h2>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-phone"></i> +12 345 678 900</p>
+                <p><i class="fas fa-envelope"></i> info@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 2020 Avenue street, UK - 62617.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2022 UI Portfolio. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
